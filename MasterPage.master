@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="stylesheet" href="mystyle.css">
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+		<div class="header">
+			<img src="banner.jpg" alt="banner">
+			<ul>
+				<li><a href="default.aspx">新闻首页</a></li>
+				<li><a href="news1.aspx">时政要闻</a></li>
+				<li><a href="#">体育新闻</a></li>
+				<li><a href="#">军事新闻</a></li>
+				<li><a href="#">娱乐新闻</a></li>
+				<li><a href="admin/lx4.aspx">后台管理</a></li>
+                  
+			</ul>
+		</div>
+		<div class="content">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+		</div>
+		<div class="footer">
+			<p> &copy; 2023 大理大学2022级计算机专升本班 版权所有</p>
+		</div>
+    </div>
+    </form>
+</body>
+</html>

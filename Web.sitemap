@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="default.aspx" title="新闻首页"  description="新闻首页">
+      <siteMapNode url="News1.aspx" title="国内新闻"  description="国内新闻" >
+        <siteMapNode url="News1-1.aspx" title="时政要闻" description="时政要闻" />
+        <siteMapNode url="News1-2.aspx" title="体育要闻" description="体育要闻" />
+        <siteMapNode url="News1-3.aspx" title="军事要闻" description="军事要闻" />
+      </siteMapNode>
+      <siteMapNode url="News2.aspx" title="国际新闻"  description="国际新闻" >
+        <siteMapNode url="News2-1.aspx" title="时政新闻" description="时政新闻" />
+        <siteMapNode url="News2-2.aspx" title="体育要闻" description="体育要闻" />
+        <siteMapNode url="News2-3.aspx" title="军事要闻" description="军事要闻" />
+      </siteMapNode>  
+    </siteMapNode>
+</siteMap>
